@@ -17,7 +17,7 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 ## <span style="color:#ffaa00">Whitepapers</span>
 
-- [Ghost Architecture](whitepapers/GhostArchitecture.md)
+- [Ghost Architecture](whitepapers/Draft-01.md)
 
 ---
 
