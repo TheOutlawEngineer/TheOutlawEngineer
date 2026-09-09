@@ -4,9 +4,7 @@
   <em>Repository for whitepapers, technical drafts, and system manifests.</em>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark&hide_border=true&color=ffb86c&line=ffb86c" alt="Activity Graph" />
-</p>
+
 
 ---
 
@@ -16,17 +14,6 @@
 - [Draft 01: Ghost Architecture](./whitepapers/draft-01.md)
 
 ---
-
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true" alt="Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical&hide_border=true" alt="Languages" />
-    </td>
-  </tr>
-</table>
 
 
 <!--
