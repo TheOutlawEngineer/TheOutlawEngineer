@@ -96,10 +96,30 @@ Industrial protocols carry their own ghosts.
 ---
 
 ### Appendix B — Documented Ghost Architecture Incidents
-- Oldsmar water facility incident  
-- Ukrainian power grid attacks  
-- Trisis/Triconex safety system attack  
-- Boeing 787 maintenance network vulnerability
+
+- **Oldsmar Water Facility Incident (2021)**  
+  A remote attacker accessed a Windows 7 SCADA workstation exposed through TeamViewer.  
+  **External documentation:**  
+  - CNN coverage: https://www.cnn.com/2021/02/10/politics/florida-water-hack/index.html  
+  - CISA advisory: https://www.cisa.gov/news-events/alerts/2021/02/11/compromise-water-treatment-facility
+
+- **Ukrainian Power Grid Attacks (2015–2016)**  
+  Attackers leveraged remote‑access tools and legacy SCADA systems frozen on outdated Windows builds.  
+  **External documentation:**  
+  - ESET analysis: https://www.welivesecurity.com/2016/01/04/blackenergy-trojan-attacks-ukrainian-power-industry/  
+  - SANS ICS report: https://ics.sans.org/media/E-ISAC_SANS_Ukraine_DUC_5.pdf
+
+- **Trisis / Triconex Safety System Attack (2017)**  
+  Safety controllers tied to early‑2000s Windows engineering tools were compromised.  
+  **External documentation:**  
+  - FireEye report: https://www.mandiant.com/resources/blog/trisis-malware  
+  - Dragos analysis: https://www.dragos.com/blog/trisis-ics-malware/
+
+- **Boeing 787 Maintenance Network Vulnerability (2019)**  
+  Outdated maintenance networks sat adjacent to avionics systems.  
+  **External documentation:**  
+  - Wired coverage: https://www.wired.com/story/boeing-787-code-vulnerability/  
+  - Original researcher write‑up: https://ioactive.com/boeing-787-network-vulnerabilities/
 
 ---
 
