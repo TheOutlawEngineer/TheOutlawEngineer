@@ -7,15 +7,15 @@ Then COVID broke the supply chain. And when the supply chain broke, the ghosts c
 
 We couldn’t get PCIe Arcport cards. We couldn’t get the right chipsets. We couldn’t get hardware capable of running the legacy OS demanded by the plant’s controllers. So we did something modern engineering teams shouldn’t ever have to do: **we hunted down failing PCs shipped back from the field.**
 
-Not for repair. Not for warranty. For cannibalization.
+Not for repair or warranty work. For cannibalization.
 
-We tore them down for parts. We harvested boards. We cloned drives. We hacked config files. We refurbished machines that should have been buried years earlier, resurrecting hardware that had already lived one full industrial lifetime. Then we shipped them back out—into the hands of field techs who were dubious at best, and right to be so—because there was no other option. The modern supply chain couldn’t produce what the legacy software required, so **we became the supply chain.**
+We tore them down for parts. We harvested boards. We cloned drives. We hacked config files. We refurbished machines that should have been buried years earlier, resurrecting hardware that had already lived one full lifetime. Then we shipped them back out—into the hands of field techs who were dubious at best, and right to be so—because there was no other option. The modern supply chain couldn’t produce what the legacy software required, so **we became the supply chain.**
 
 That’s when it clicked: we weren’t maintaining equipment. **We were mediums for digital ghosts.**
 
 Every refurbished unit was another node in an architecture that didn’t belong in the present but still shaped it. Every cloned drive was another fossilized OS forced to coexist with modern networks. Every hacked config file was an artifact of a system refusing to move on.
 
-> Ghost Architecture is the haunted substrate beneath modern industry—built from machines that persist not because they’re robust, but because the process breaks without them.
+> Ghost Architecture is the haunted substrate beneath modern industry—built from machines that persist only because the process breaks without them.
 
 ---
 
@@ -24,12 +24,12 @@ Ghost Architecture begins when industrial systems outlive their lifespan because
 
 HMIs remain locked to Windows XP, 7, or 8 because the vendor runtimes they depend on were never modernized. Drivers exist only for extinct hardware. Control logic remains frozen in early‑2000s frameworks that no modern OS can run without breaking the process. Replacing them requires rewriting entire industrial workflows, so they stay.
 
-This creates **temporal fragmentation**—a single operational environment stretching across decades of incompatible technology: logic from 2001, an HMI from 2010, an OS from 2013, and a network from 2026. It becomes a geological cross‑section of industrial history—layers stacked together that were never meant to coexist.
+This creates **temporal fragmentation**—a single operational environment stretching across decades of incompatible technology: logic from 2001, an HMI from 2010, an OS from 2013, and a network from 2026. It becomes a living time capsule of industrial history—layers stacked together that were never meant to coexist.
 
 ---
 
 ## 3. Supply‑Chain Propagation — How Decay Spreads
-Ghost Architecture is distributed, not isolated. Vendors ship legacy requirements en masse because their software was never updated. Customers deploy haunted systems because they have no alternative. Fragility becomes inherited, standardized, and normalized across entire industries.
+Ghost Architecture is distributed, not isolated. Vendors ship legacy requirements en masse because their software was never updated. Customers deploy obsolete systems because they have no alternative. Fragility becomes inherited, standardized, and normalized across entire industries.
 
 COVID made this visible. The inability to procure modern hardware revealed how deeply legacy requirements were embedded. The industrial ecosystem wasn’t modern—it was **fossilized.**
 
@@ -39,7 +39,7 @@ Oldsmar wasn’t a unique failure. When legacy systems cannot be modernized, **c
 
 ---
 
-## 4. The EWS Haunting Vector — Where OT Touches IT
+## 4. The EWS Vector — Where OT Touches IT
 The Engineering Workstation is the doorway through which Ghost Architecture touches modern networks. These machines sit at the intersection of OT and IT, bridging two worlds that were never meant to meet: dual NICs, multi‑VLAN access, contractor laptops, vendor tunnels, and domain membership converging on a workstation never designed to be a security boundary.
 
 This adjacency is the problem. Ghost Architecture is dangerous simply because these systems are present. A forgotten Windows 7 workstation sitting near a core switch isn’t a vulnerability in the traditional sense—it’s a **structural flaw.** The ghost moves through architecture.
