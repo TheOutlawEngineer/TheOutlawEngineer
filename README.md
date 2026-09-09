@@ -13,7 +13,7 @@
 ### 📂 Whitepapers & Manifests
 *Coming soon. This terminal is currently indexing documents.*
 
-- [Draft 01: Ghost Architecture](./whitepapers/draft-01.md) *(Example link)*
+- [Draft 01: Ghost Architecture](./whitepapers/draft-01.md)
 
 ---
 
