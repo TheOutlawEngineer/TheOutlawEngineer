@@ -94,7 +94,7 @@ Industrial protocols carry their own ghosts.
 **Vendor‑locked serial protocols** behave similarly. When serial‑to‑Ethernet converters are added for convenience, the protocol’s assumptions collapse, creating spectral adjacency between physical and digital domains.
 
 ---
-
+<!---
 ### Appendix B — Documented Ghost Architecture Incidents
 
 - **Oldsmar Water Facility Incident (2021)**  
@@ -120,7 +120,7 @@ Industrial protocols carry their own ghosts.
   **External documentation:**  
   - Wired coverage: https://www.wired.com/story/boeing-787-code-vulnerability/  
   - Original researcher write‑up: https://ioactive.com/boeing-787-network-vulnerabilities/
-
+--->
 ---
 
 ### Appendix C — OT Incident Response Reality Checklist
