@@ -111,11 +111,3 @@ Operators must stabilize the physical process before IR can act. This means veri
 Before digital triage occurs, the plant must confirm valves are in expected positions, pumps are not cycling abnormally, controllers are not in fallback modes, and HMIs are showing live data rather than stale screens. Modern IR playbooks fail because they assume modern systems. Ghost Architecture requires a different doctrine entirely.
 
 ---
-
-### Appendix D — Expanded Glossary of Ghost Architecture Terms
-| Term | Definition |
-|------|-------------|
-| **Ghost Architecture** | The haunted substrate beneath modern industrial systems, created when obsolete OT systems and legacy software persist because the process breaks without them. |
-| ** Architecture
-The Haunted Substrate Beneath Modern Industrial Systems
-
