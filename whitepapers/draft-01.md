@@ -43,16 +43,7 @@ Oldsmar wasn’t a unique failure. When legacy systems cannot be modernized, **c
 
 ---
 
-## 4. The EWS Vector — Where OT Touches IT
-
-+-------------------+     +-------------------+
-|  OT Environment   | --> |  IT Environment   |
-|  Legacy SCADA     |     |  Domain Network   |
-|  Safety Systems   |     |  Remote Access    |
-+-------------------+     +-------------------+
-        \__________EWS__________/
-        Dual NICs • Multi‑VLAN • Vendor Tunnels
-        
+## 4. The EWS Vector — Where OT Touches IT  
 The Engineering Workstation is the doorway through which Ghost Architecture touches modern networks. These machines sit at the intersection of OT and IT, mixing the two worlds that were never meant to meet: dual NICs, multi‑VLAN access, contractor laptops, vendor tunnels, and domain membership converging on a workstation that was never designed to be a security boundary.
 
 This OT/IT adjacency is the problem. Ghost Architecture is dangerous simply because it is present. A forgotten Windows 7 workstation sitting near a core switch isn’t a vulnerability in the traditional sense—it’s a **structural flaw.**
