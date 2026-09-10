@@ -17,7 +17,7 @@ That’s when it clicked: we weren’t maintaining equipment. **We were mediums 
 
 Every refurbished unit was another node in an architecture that didn’t belong in the present but still was required. Every cloned drive was another fossilized OS forced to coexist with modern networks. Every hacked config file was an artifact of an ecosystem refusing to move on.
 
-> Ghost Architecture is the haunted substrate beneath modern industry—built from machines that persist only because the process breaks without them.
+> Ghost Architecture is the haunted graveyard beneath modern industry—built from machines that persist only because the process breaks without them.
 
 ---
 
