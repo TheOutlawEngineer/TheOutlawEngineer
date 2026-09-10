@@ -31,7 +31,7 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 ---
 
-<p align="center"><sub>Industrial systems are never clean. Neither is the truth.</sub></p>
+<p align="center"><sub>Industrial and the truth systems are never clean.</sub></p>
 
 
 ---
