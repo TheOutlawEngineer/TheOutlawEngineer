@@ -1,4 +1,4 @@
-# 🜂 Ghost Architecture: The Substrate Beneath Modern Industrial Systems
+# 🜂 Ghost Architecture: The Graveyard Beneath Modern Industrial Systems
 
 ## 1. Introduction — The Moment the Ghost Reveals Itself
 During COVID, we ended up living inside a hardware ecosystem that shouldn’t have existed. Part of the product we shipped was an **EWS—Engineering Workstation** sentenced to a slow death in the steam‑dampened depths of some industrial facility. Under normal conditions, these machines were pretty much disposable. You shipped them, they ran until they didn’t, and then the customer replaced whatever bargain‑bin box could still run the HMI.
