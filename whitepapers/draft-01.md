@@ -46,6 +46,14 @@ Oldsmar wasn’t a unique failure. When legacy systems cannot be modernized, **c
 ## 4. The EWS Vector — Where OT Touches IT
 The Engineering Workstation is the doorway through which Ghost Architecture touches modern networks. These machines sit at the intersection of OT and IT, mixing the two worlds that were never meant to meet: dual NICs, multi‑VLAN access, contractor laptops, vendor tunnels, and domain membership converging on a workstation that was never designed to be a security boundary.
 
+graph TD
+    A[Plant Floor HMI / PLC] -->|Legacy Protocol / Modbus| B(Engineering Workstation - EWS)
+    B -->|Dual NIC / Multi-VLAN| C[Corporate IT Network]
+    C -->|Public IP / TeamViewer| D[Internet / Remote Access]
+    style B fill:#2d2d2d,stroke:#ff5555,stroke-width:2px,color:#fff
+    style D fill:#331111,stroke:#ff0000,stroke-width:2px,color:#ff8888
+
+
 This OT/IT adjacency is the problem. Ghost Architecture is dangerous simply because it is present. A forgotten Windows 7 workstation sitting near a core switch isn’t a vulnerability in the traditional sense—it’s a **structural flaw.**
 
 The **Ukrainian power grid attacks** demonstrated how legacy SCADA systems running on outdated Windows builds could be manipulated through the remote‑access tools operators relied on daily. The attackers didn’t exploit cutting‑edge zero‑days; they used the exact remote pathways engineers used to cut down transit time.
