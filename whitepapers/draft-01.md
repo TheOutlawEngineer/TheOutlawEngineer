@@ -111,8 +111,8 @@ Industrial protocols carry their own ghosts.
 - **Oldsmar Water Facility Incident (2021)**  
   A remote attacker accessed a Windows 7 SCADA workstation exposed through TeamViewer.  
   **External documentation:**  
-  - CNN coverage: https://www.cnn.com/2021/02/10/politics/florida-water-hack/index.html  
-  - CISA advisory: https://www.cisa.gov/news-events/alerts/2021/02/11/compromise-water-treatment-facility
+  - Dragos Report: https://www.dragos.com/blog/recommendations-following-the-oldsmar-water-treatment-facility-cyber-attack/
+  - CISA Advisory: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-042a
 
 - **Ukrainian Power Grid Attacks (2015–2016)**  
   Attackers leveraged remote‑access tools and legacy SCADA systems frozen on outdated Windows builds.  
