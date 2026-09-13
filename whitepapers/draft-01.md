@@ -117,20 +117,24 @@ Industrial protocols carry their own ghosts.
 - **Ukrainian Power Grid Attacks (2015–2016)**  
   Attackers leveraged remote‑access tools and legacy SCADA systems frozen on outdated Windows builds.  
   **External documentation:**  
-  - ESET analysis: https://www.welivesecurity.com/2016/01/04/blackenergy-trojan-attacks-ukrainian-power-industry/  
-  - SANS ICS report: https://ics.sans.org/media/E-ISAC_SANS_Ukraine_DUC_5.pdf
+  - CISA analysis: https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01
+  - SANS ICS report: https://www.sans.org/blog/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid
 
 - **Trisis / Triconex Safety System Attack (2017)**  
   Safety controllers tied to early‑2000s Windows engineering tools were compromised.  
   **External documentation:**  
-  - FireEye report: https://www.mandiant.com/resources/blog/trisis-malware  
-  - Dragos analysis: https://www.dragos.com/blog/trisis-ics-malware/
+  -  Trellix article:
+https://www.trellix.com/blogs/research/triton-malware-spearheads-latest-generation-of-attacks-on-industrial-systems1/
+  - Dragos analysis: 
+  https://www.dragos.com/blog/threat-proliferation-in-ics-cybersecurity-xenotime-now-targeting-electric-sector-in-addition-to-oil-and-gas/
 
 - **Boeing 787 Maintenance Network Vulnerability (2019)**  
   Outdated maintenance networks sat adjacent to avionics systems.  
   **External documentation:**  
-  - Wired coverage: https://www.wired.com/story/boeing-787-code-vulnerability/  
-  - Original researcher write‑up: https://ioactive.com/boeing-787-network-vulnerabilities/
+  -  Wired Article:
+https://www.wired.com/story/boeing-787-code-leak-security-flaws/
+  - 14 CFR part 25:
+https://www.federalregister.gov/documents/2007/12/28/E7-25075/special-conditions-boeing-model-787-8-airplane-systems-and-data-networks-security-protection-of
 --->
 ---
 
