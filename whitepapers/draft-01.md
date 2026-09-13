@@ -123,18 +123,14 @@ Industrial protocols carry their own ghosts.
 - **Trisis / Triconex Safety System Attack (2017)**  
   Safety controllers tied to early‑2000s Windows engineering tools were compromised.  
   **External documentation:**  
-  -  Trellix article:
-https://www.trellix.com/blogs/research/triton-malware-spearheads-latest-generation-of-attacks-on-industrial-systems1/
-  - Dragos analysis: 
-  https://www.dragos.com/blog/threat-proliferation-in-ics-cybersecurity-xenotime-now-targeting-electric-sector-in-addition-to-oil-and-gas/
+  -  Trellix article: https://www.trellix.com/blogs/research/triton-malware-spearheads-latest-generation-of-attacks-on-industrial-systems1/
+  - Dragos analysis: https://www.dragos.com/blog/threat-proliferation-in-ics-cybersecurity-xenotime-now-targeting-electric-sector-in-addition-to-oil-and-gas/
 
 - **Boeing 787 Maintenance Network Vulnerability (2019)**  
   Outdated maintenance networks sat adjacent to avionics systems.  
   **External documentation:**  
-  -  Wired Article:
-https://www.wired.com/story/boeing-787-code-leak-security-flaws/
-  - 14 CFR part 25:
-https://www.federalregister.gov/documents/2007/12/28/E7-25075/special-conditions-boeing-model-787-8-airplane-systems-and-data-networks-security-protection-of
+  -  Wired Article: https://www.wired.com/story/boeing-787-code-leak-security-flaws/
+  - 14 CFR part 25 :https://www.federalregister.gov/documents/2007/12/28/E7-25075/special-conditions-boeing-model-787-8-airplane-systems-and-data-networks-security-protection-of
 
 ---
 
