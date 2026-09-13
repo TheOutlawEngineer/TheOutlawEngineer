@@ -105,7 +105,7 @@ Industrial protocols carry their own ghosts.
 **OPC Classic** is a COM/DCOM artifact from the Windows NT era. It inherits unauthenticated calls, trust‑by‑hostname, and RPC channels.
 
 ---
-<!---
+
 ### Appendix B — Documented Ghost Architecture Incidents
 
 - **Oldsmar Water Facility Incident (2021)**  
@@ -135,7 +135,7 @@ https://www.trellix.com/blogs/research/triton-malware-spearheads-latest-generati
 https://www.wired.com/story/boeing-787-code-leak-security-flaws/
   - 14 CFR part 25:
 https://www.federalregister.gov/documents/2007/12/28/E7-25075/special-conditions-boeing-model-787-8-airplane-systems-and-data-networks-security-protection-of
---->
+
 ---
 
 ### Appendix C — OT Incident Response Reality Checklist
