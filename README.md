@@ -19,7 +19,7 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 ***Ghost Architecture***
 
-<sub>Ghost Architecture explores how industrial control systems survive decades past their expiration date through cannibalized hardware, eBay-sourced legacy parts, and desperate field workarounds. It exposes why modern IT compliance models completely break down when plant availability relies on fossilized machines that cannot be updated without halting production</sub>
+<sub>Ghost Architecture exposes why modern IT compliance models completely break down when plant availability relies on fossilized machines that cannot be updated without halting production</sub>
 - [Ghost Architecture](whitepapers/draft-01.md)
 
 ***The Ecology of Plant Drift Series***
