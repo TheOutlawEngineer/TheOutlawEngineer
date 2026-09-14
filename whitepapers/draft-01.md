@@ -11,7 +11,7 @@ So we did something modern engineering teams shouldn’t ever have to do: **we h
 
 Not for repair or warranty work. For cannibalization.
 
-We tore them down for parts. We harvested boards. We cloned drives. We copied or hacked config files. We refurbished machines that should have been buried years earlier(they were borderline obsolete when we got them new) resurrecting hardware that had already lived one full lifetime. Then we shipped them back out—into the hands of field techs who were dubious at best, and right to be so—because there was no other option. The modern supply chain couldn’t produce what the legacy software required, so **we became the supply chain.** If we could keep the donar part(s) from thermal failure for 24 hours, we called it good and shipped.
+We tore them down for parts. We harvested boards. We cloned drives. We copied or hacked config files. We refurbished machines that should have been buried years earlier(they were borderline obsolete when we got them new) resurrecting hardware that had already lived one full lifetime. we even stalked ebay for anything  that would remotely work. Then we shipped them back out—into the hands of field techs who were dubious at best, and right to be so—because there was no other option. The modern supply chain couldn’t produce what the legacy software required, so **we became the supply chain.** If we could keep the donar part(s) from thermal failure for 24 hours, we called it good and shipped.
 
 That’s when it clicked: we weren’t maintaining equipment. **We were mediums for digital ghosts.**
 
