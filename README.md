@@ -19,6 +19,8 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 - [Ghost Architecture](whitepapers/draft-01.md)
 
+The Ecology of Plant Drift
+- [The Drift Machine](whitepapers/)
 ---
 
 ## <span style="color:#ffaa00">Focus Areas</span>
