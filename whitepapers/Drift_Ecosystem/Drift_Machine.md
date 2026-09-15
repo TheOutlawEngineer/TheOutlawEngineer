@@ -495,7 +495,7 @@ The goal is **visibility**.
 If the plant can see its infrastructure, it can secure it.  
 If it cannot see its infrastructure, drift will always win.
 
-Implementation is the moment the plant 
+Implementation is the moment the plant finally sees.
 
 
 
