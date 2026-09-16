@@ -17,15 +17,14 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 ## <span style="color:#ffaa00">Whitepapers</span>
 
-***Ghost Architecture***
-
-<sub>Ghost Architecture exposes why modern IT compliance models completely break down when plant availability relies on fossilized machines that cannot be updated without halting production.</sub>
-- [Ghost Architecture](whitepapers/draft-01.md)
 
 ***The Ecology of Plant Drift Series***
 
 <sub>This series exposes the hidden systemic pressures that drive industrial facilities away from secure theory and toward dangerous operational workarounds.</sub>
 - [Drift Machine](whitepapers/Drift_Ecosystem/Drift_Machine.md)
+
+  - [Ghost Architecture](whitepapers/draft-01.md)
+
 ---
 
 ## <span style="color:#ffaa00">Focus Areas</span>
