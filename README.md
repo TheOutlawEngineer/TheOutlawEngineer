@@ -27,6 +27,8 @@ This project focuses on practical, real-world system behavior observed in chemic
  - [Ghost Architecture](whitepapers/draft-01.md)
    <sub>The multi-decade fossil record of legacy systems that form the actual backbone of modern industry.</sub>
 
+
+<!--How executive compensation structures and short-term GM metrics systematically subsidize decay.
 ---
 
 ## <span style="color:#ffaa00">Focus Areas</span>
