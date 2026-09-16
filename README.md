@@ -19,7 +19,6 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 
 ***The Ecology of Plant Drift Series***
-
 <sub>Industrial cyber risk isn't caused by sophisticated hackers breaching modern zero-trust perimeters; it's engineered by the daily pressures of keeping a plant alive. Uptime is king. This series explores how human exhaustion, leadership incentives, and supply chain decay quietly transform industrial control systems into hidden attack surfaces.</sub>
 - [Drift Machine](whitepapers/Drift_Ecosystem/Drift_Machine.md)
   <sub>How 3:00 a.m. emergencies and production pressures turn temporary patches into permanent security liabilities.</sub>
