@@ -437,7 +437,7 @@ At the end of the day,security on the plant floor is about accepting that the pl
 ​When you stop fighting human nature and start building systems that can track, contain, and isolate drift automatically, you stop chasing ghosts. 
 
 
-**Next in The Drift Ecology Series**
+**Next in The Ecology of Drift Series**
 
 ***The human drift chronicled on the plant floor mutates into the multi-decade fossil record we call*** **Ghost Architecture** ***—a haunted, shadow ecosystem of legacy operating systems, unmanaged VLANs, and vendor backdoors that nobody designed and nobody dares to turn off.***
 
