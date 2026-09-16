@@ -23,7 +23,7 @@ We tore them down for parts. We harvested boards. We cloned drives. We copied or
 
 That’s when it clicked: we weren’t maintaining equipment. **We were mediums for digital ghosts.**
 
-Every refurbished unit was another node in an architecture that didn’t belong in the present but still was required. Every cloned drive was another fossilized OS forced to coexist with modern networks. Every hacked config file was an artifact of an ecosystem refusing to move on.
+Every refurbished unit was another node in an architecture that didn’t belong in the present. Every unit was still required. Every cloned drive was another fossilized OS forced to coexist with modern networks. Every hacked config file was an artifact of an ecosystem refusing to die.
 
 > Ghost Architecture is the haunted graveyard beneath modern industry—built from machines that persist only because the process breaks without them.
 
@@ -39,7 +39,9 @@ This creates **temporal fragmentation**—a single operational environment stret
 ---
 
 ## 3. Supply‑Chain Propagation — How Decay Spreads
-Ghost Architecture is distributed, not isolated. Vendors ship legacy requirements en masse because their software was never updated. Customers deploy obsolete systems because they have no alternative. Fragility becomes inherited and standardized across entire industries. Welcome to the new normal.
+Ghost Architecture is distributed, not isolated. Vendors ship legacy requirements en masse because their software was never updated. Customers deploy obsolete systems because they have no alternative. Fragility becomes inherited and standardized across entire industries. 
+
+Welcome to the new normal.
 
 COVID made this visible. The inability to procure our hardware revealed how deeply legacy requirements were embedded. The industrial ecosystem wasn’t modern—it was **fossilized** ,lost in time.
 
@@ -54,7 +56,7 @@ Oldsmar wasn’t a unique failure. When legacy systems cannot be modernized, **c
 ## 4. The EWS Vector — Where OT Touches IT  
 The Engineering Workstation is the doorway through which Ghost Architecture touches modern networks. These machines sit at the intersection of OT and IT, mixing the two worlds that were never meant to meet: dual NICs, multi‑VLAN access, contractor laptops, vendor tunnels, and domain membership converging on a workstation that was never designed to be a security boundary.
 
-This OT/IT adjacency is the problem. Ghost Architecture is dangerous simply because it is present. A forgotten Windows 7 workstation sitting near a core switch isn’t a vulnerability in the traditional sense—it’s a **structural flaw.**
+This OT/IT adjacency is the problem. Ghost Architecture is dangerous simply because it is present. A forgotten Windows 7 workstation sitting near a core switch isn’t a vulnerability in the traditional sense -it’s a **structural flaw.**
 
 The **Ukrainian power grid attacks** demonstrated how legacy SCADA systems running on outdated Windows builds could be manipulated through the remote‑access tools operators relied on daily. The attackers didn’t exploit cutting‑edge zero‑days; they used the exact remote pathways engineers used to cut down transit time.
 
