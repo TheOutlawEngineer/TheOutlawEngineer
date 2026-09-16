@@ -23,7 +23,7 @@ This project focuses on practical, real-world system behavior observed in chemic
 <sub>This series exposes the hidden systemic pressures that drive industrial facilities away from secure theory and toward dangerous operational workarounds.</sub>
 - [Drift Machine](whitepapers/Drift_Ecosystem/Drift_Machine.md)
 
-  - [Ghost Architecture](whitepapers/draft-01.md)
+ - [Ghost Architecture](whitepapers/draft-01.md)
 
 ---
 
