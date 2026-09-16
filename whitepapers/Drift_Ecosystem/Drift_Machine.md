@@ -431,7 +431,7 @@ By the time an audit finishes, the system it evaluated no longer exists.
 
 **​Accept the Emergency, Automate the Cleanup:** When a crisis hits, let the engineer bypass whatever they need to keep the plant out of freefall. But build a temporary quarentine zone. An isolated sandbox where emergency changes live. If a temporary fix isn't formally merged into the production baseline within 72 hours, the system flags it as rogue infrastructure.
 
-​###9.2 The Final Baseline
+​**9.2 The Final Baseline**
 At the end of the day,security on the plant floor is about accepting that the plant environment is driven by survival.
 
 ​When you stop fighting human nature and start building systems that can track, contain, and isolate drift automatically, you stop chasing ghosts. 
