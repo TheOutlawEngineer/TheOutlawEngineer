@@ -20,10 +20,12 @@ This project focuses on practical, real-world system behavior observed in chemic
 
 ***The Ecology of Plant Drift Series***
 
-<sub>This series exposes the hidden systemic pressures that drive industrial facilities away from secure theory and toward dangerous operational workarounds.</sub>
+<sub>Industrial cyber risk isn't caused by sophisticated hackers breaching modern zero-trust perimeters; it's engineered by the daily pressures of keeping a plant alive. Uptime is king. This series explores how human exhaustion, leadership incentives, and supply chain decay quietly transform industrial control systems into hidden attack surfaces.</sub>
 - [Drift Machine](whitepapers/Drift_Ecosystem/Drift_Machine.md)
+- <sub>How 3:00 a.m. emergencies and production pressures turn temporary patches into permanent security liabilities.>/sub>
 
  - [Ghost Architecture](whitepapers/draft-01.md)
+ - <sub>The multi-decade fossil record of legacy operating systems, unmanaged VLANs, and shadow networks that form the actual backbone of modern industry.</sub>
 
 ---
 
