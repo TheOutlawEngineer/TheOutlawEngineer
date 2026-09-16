@@ -417,19 +417,19 @@ By the time an audit finishes, the system it evaluated no longer exists.
 
 ## 9. The Hard Reset: Engineering for Fatigue
 
-​You cannot train away exhaustion. You cannot policy-document your way out of a freezing maintenance tech trying to keep a million-dollar line running at 3:00 a.m.
+​You cannot train away exhaustion. You cannot **policy** your way out of a freezing maintenance tech trying to keep a million-dollar line running at 3:00 a.m.
 
-​If the architecture breaks under human fatigue, the architecture has always been broken. Fixing drift doesn't mean writing stricter rules; it means building systems that absorb human desperation without collapsing.
+​If the architecture breaks under human fatigue, the architecture has always been broken. Fixing drift doesn't mean writing stricter rules. When rules and policies come in conflict with reality, reality wins. Always. The only real solution is building systems that absorb human desperation without failing.
 
 ​###9.1 Practical Counter-Measures for the Plant Floor
 
 **​Build Hardware-Enforced Friction:** If a vendor needs remote access, put it behind a hardware key-switch or a physical jump box with a hardwired auto-kill timer. When the window closes, connection drops. Never trust a human to close a VPN; cut the line automatically.
 
-**​Deploy Passive Mapping:** Stop relying on annual spreadsheets and network diagrams. Drop passive monitoring taps (SPAN ports or fiber taps) across critical segments. Let your algorithms map the actual traffic baseline continuously. If a new MAC address or unknown Modbus register read appears, flag it.**Flag it instantly.**
+**​Deploy Passive Mapping:** Stop relying on annual spreadsheets and network diagrams or an intern with a laptop and wireshark. Drop passive monitoring taps (SPAN ports for example) across critical segments. Make your algorithms map the actual traffic continuously. Get a real baseline. If a new MAC address or unknown Modbus register read appears, flag it.**Flag it instantly.**
 
-​**Treat the Asser Registry Like Circuit Schematics:** In hardware, you don't guess what's on the board; you check the schematic. Same concept. Keep an inventory of every authorized asset, firmware hash, and physical port. If it doesn't match the hard manifest, isolate the port automatically.
+​**Treat the Asset Registry Like Circuit Schematics:** In hardware, you don't guess what's on the board; you check the schematic. Same concept. Keep an inventory of every authorized asset, firmware hash, and physical port. If it doesn't match the hard manifest, isolate the port. Automate the process.
 
-**​Accept the Emergency, Automate the Cleanup:** When a crisis hits, let the engineer bypass whatever they need to keep the plant alive. But build a temporary staging zone. An isolated sandbox where emergency changes live. If a temporary fix isn't formally merged into the production baseline within 72 hours, the system flags it as rogue infrastructure.
+**​Accept the Emergency, Automate the Cleanup:** When a crisis hits, let the engineer bypass whatever they need to keep the plant out of freefall. But build a temporary quarentine zone. An isolated sandbox where emergency changes live. If a temporary fix isn't formally merged into the production baseline within 72 hours, the system flags it as rogue infrastructure.
 
 ​###9.2 The Final Baseline
 ​Security on the plant floor is about accepting that the environment is  driven by survival.
