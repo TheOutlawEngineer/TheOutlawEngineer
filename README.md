@@ -25,7 +25,7 @@ This project focuses on practical, real-world system behavior observed in chemic
   <sub>How 3:00 a.m. emergencies and production pressures turn temporary patches into permanent security liabilities.</sub>
 
  - [Ghost Architecture](whitepapers/draft-01.md)
-   <sub>The multi-decade fossil record of legacy operating systems, unmanaged VLANs, and shadow networks that form the actual backbone of modern industry.</sub>
+   <sub>The multi-decade fossil record of legacy systems that form the actual backbone of modern industry.</sub>
 
 ---
 
