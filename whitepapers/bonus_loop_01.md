@@ -195,23 +195,30 @@ The fix isn't a bigger stick. It's changing what the formula rewards: multi-year
 ### Appendix D — Field Signs of a Plant in the Loop
 None of these prove which act a plant is in on their own. Together, they're a reasonably reliable read — useful for anyone touring a facility without access to its P&L.
 
-*Lighting that flickers or has visibly mismatched replacement fixtures across different sections of the same floor
+* Lighting that flickers or has visibly mismatched replacement fixtures across different sections of the same floor
 
-*Extension cords or temporary cable runs that have clearly been in place for years, not weeks
+* Extension cords or temporary cable runs that have clearly been in place for years, not weeks
 
-*Visible physical damage (wall penetrations, structural cuts) that were never properly finished or sleeved
+* Visible physical damage (wall penetrations, structural cuts) that were never properly finished or sleeved
 
-*Masking-tape or handwritten labels replacing manufacturer nameplates or proper engraved labels
+* Masking-tape or handwritten labels replacing manufacturer nameplates or proper engraved labels
 
-*Safety interlocks, guards, or e-stops that are visibly bypassed, taped over, or jumpered
+* Safety interlocks, guards, or e-stops that are visibly bypassed, taped over, or jumpered
 
-*Maintenance staff who can immediately point out "the bad one" — a specific problem machine everyone already knows about and works around
+* Maintenance staff who can immediately point out "the bad one" — a specific problem machine everyone already knows about and works around
 
-*A parts room or cabinet full of components that don't match any current equipment on the floor — evidence of a prior scavenging phase
+* A parts room or cabinet full of components that don't match any current equipment on the floor — evidence of a prior scavenging phase
 
-*Network diagrams or as-built drawings that staff themselves describe as "not accurate anymore" without being asked
+* Network diagrams or as-built drawings that staff themselves describe as "not accurate anymore" without being asked
 Next in The Ecology of Drift Series...
 
 ***Thank you for walking the drift with me.***
 
 ***None of this was meant to be comforting. Plants don’t offer comfort. They offer lessons, usually late, usually expensive. Drift isn’t fiction. It’s the part of the plant that no one swems to acknowledge. So thank you for paying attention.***
+
+***If you recognized pieces of your own facility in these pages — the flickering lights, the scavenged switches, the quiet shortcuts that became permanent — then the work did what it needed to do. These documents were issued as “operational warnings, not accusations or attacks,” a way to make the invisible visible before it becomes irreversible.***
+
+***Industrial drift is slow, silent, and entirely rational inside the bonus loop. None of this collapses overnight. It erodes one incentive at a time. And the only defense is paying attention — to the culture andto the infrastructure.***
+
+***So thank you for paying attention.
+That’s how the next crew stands a chance***
