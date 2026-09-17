@@ -1,11 +1,11 @@
-#Disclaimer — This Work Is a Warning, Not an Attack
+# Disclaimer — This Work Is a Warning, Not an Attack
 ***These papers are issued as operational warnings, not accusations or attacks. Their purpose is to highlight systemic drift, incentive-driven vulnerabilities, and structural blind spots that increase OT cyber risk. Nothing in these documents is intended to criticize personnel, departments, vendors, or plant leadership.***
 ***The analysis focuses on system behavior, organizational incentives, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.***
 
-#The Bonus Loop
-##How Leadership Incentives Engineer Industrial Drift
+# The Bonus Loop
+## How Leadership Incentives Engineer Industrial Drift
 
-##1. Introduction: The Drift
+## 1. Introduction: The Drift
 A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap off-gassing from machines that haven't run anything but commissioning tests. The lighting is bright and even. Motors hum with that steady, confident resonance you only get when everything is new and aligned. The place feels engineered.
 
 Five years later, the shine is gone. A third of the high-bays flicker or sit dead. Temporary data drops snake overhead. Extension cords become permanent infrastructure. Low spots in the floor collect oil skinned water that never fully dries.
@@ -20,7 +20,7 @@ It's drifting.
 
 And the drift isn't mysterious. It's engineered — not by the people turning wrenches, but by the bonus loop.
 
-##1.1 Industrial Decay Is an Incentive Problem
+## 1.1 Industrial Decay Is an Incentive Problem
 
 Industrial decay is not a maintenance problem, a training problem, or a cybersecurity problem. It is an incentive problem.
 
@@ -28,7 +28,7 @@ When leadership is rewarded for short-term optics instead of long-term reliabili
 
 The mechanism that makes this drift inevitable is the Rotating GM Loop.
 
-##2. The Mechanics of Decay: The Rotating GM Loop
+## 2. The Mechanics of Decay: The Rotating GM Loop
 
 The bonus structure reduces plant management to a brutal binary equation:
 
@@ -76,7 +76,7 @@ Every scavenged device injects unpatched operating systems, unknown MAC addresse
 
 The GM loop doesn't just create physical rot — it creates digital rot.
 
-##3. The Cultural Shift
+## 3. The Cultural Shift
 The cultural erosion mirrors the GM cycle:
 **"Fix it right." → "Fix it cheap." → "Fix it later." → "Don't fix it at all."**
 
@@ -84,7 +84,7 @@ Culture doesn't collapse all at once — it erodes one justified shortcut at a t
 
 Safety interlocks become "temporary bypasses" that stretch across years. Rigged machine guards remain in place purely for show. The building becomes a physical record of leadership incentives: color shifts on walls, widespread lighting decay, infrastructure scars, and tangled patch-cable nests.
 
-##4. Why Policy, Training, and Cybersecurity Fail
+## 4. Why Policy, Training, and Cybersecurity Fail
 Corporate headquarters typically responds to decay with new policies, mandatory training modules, or heavy-handed cybersecurity frameworks. All three fail because they treat symptoms, not incentives.
 
 Policy has no teeth. Policies only matter when leadership wants them enforced, and in a bonus-driven plant, leadership wants short-term numbers, not compliance.
@@ -93,7 +93,7 @@ Training misdiagnoses the problem. Technicians already know the correct procedur
 
 Cybersecurity assumes stability. Cyber frameworks require a stable, predictable environment. They cannot function in a plant where configurations change on the fly and documentation bears no resemblance to physical reality.
 
-##5. The Cybersecurity Implications of a Decaying Plant
+## 5. The Cybersecurity Implications of a Decaying Plant
 Operational Technology (OT) cybersecurity is fundamentally a physical reliability discipline. You cannot secure a digital network in a plant that cannot secure its own physical foundation.
 
 Rot destroys baselines. Scavenged wiring and mystery switches erase the answer to the most fundamental security question: what is actually plugged into the network?
@@ -107,11 +107,12 @@ Hero techs break cyber hygiene.
 Midnight fixes introduce unverified wiring shifts, unauthorized reroutes, and unmanaged patches. Every hero fix creates a blind spot.
 
 Fear suppresses reporting. Workers ignore anomalies to avoid stopping the line. Silence is an attacker's best friend.
+
 Cyber-physical cascades follow. In a decaying plant, everything is already hanging by a thread. A minor malicious logic tweak or sensor spoof can trigger catastrophic physical destruction.
 
 Cyber instability is never the root cause — it is the final symptom of physical neglect.
 
-##6. The Incentive Reset
+## 6. The Incentive Reset
 **You do not fix decay by adding rules. You fix it by rewriting incentives.**
 
 Link maintenance to sales. Maintenance is throughput protection. Healthy equipment produces more sellable units per hour.
@@ -123,15 +124,15 @@ End fear as a management tool. Stopping the line to do the job correctly must be
 
 Make decay unacceptable. Flickering lights, oily floors, bypassed interlocks, and duct-taped switches must become unacceptable from shop floor to corner office.
 
-##7. Conclusion
+## 7. Conclusion
 A bonus-driven plant is not just inefficient — it is dangerous. It builds its own cyber-physical kill chain one deferred repair at a time. The only question is when it finally snaps.
 
 When executive incentives reward long-term reliability over quarterly margin games, the rot reverses itself.
 You cannot patch a firewall when the physical wall has a hole blown through it.
 
-##Appendices
+## Appendices
 
-###Appendix A — Documented Incentive-Driven Failures
+### Appendix A — Documented Incentive-Driven Failures
 
 These aren't cyber incidents. They're the mechanism this paper describes, playing out in the real world at a scale big enough to make the news — proof that the bonus loop isn't a rhetorical device, it's a documented pattern across industries that have nothing else in common.
 
@@ -161,7 +162,7 @@ This is Section 2.1's scavenger phase at national scale: maintenance treated as 
 
 **Congressional hearing on inspection cuts:** https://www.fortune.com/2024/07/24/hearing-norfolk-southern-derailment-ohio-rushed-inspections-job-cuts
 
-###Appendix B — The Math of the Loop
+### Appendix B — The Math of the Loop
 The bonus loop isn't a metaphor. It's arithmetic, and it rewards exactly the behavior this paper describes.
 Say a GM's annual bonus is calculated as 40% base salary, weighted 60% on plant uptime/output and 40% on capital spend staying under budget. A GM facing $2M in deferred maintenance has two options:
 
@@ -175,7 +176,7 @@ The next GM inherits the bill. This is a well-known category of problem in econo
 
 The fix isn't a bigger stick. It's changing what the formula rewards: multi-year vesting tied to asset condition at handoff, not just performance during tenure, closes the loop instead of resetting it with every rotation.
 
-###Appendix C — Glossary of Related Buisness Terms and Concepts
+### Appendix C — Glossary of Related Buisness Terms and Concepts
 **Capex / Opex** — Capital expenditure (a major, often depreciated purchase — new equipment, a rebuild) versus operating expenditure (routine, expensed costs — parts, labor, utilities). Deferred maintenance frequently means deferred capex specifically, since large fixes get classified as capital projects requiring separate approval that a GM's discretionary budget doesn't cover.
 
 **EBITDA** — Earnings before interest, taxes, depreciation, and amortization. A common basis for executive bonus formulas precisely because it excludes the capital spending that would otherwise show the cost of deferred maintenance.
@@ -190,7 +191,7 @@ The fix isn't a bigger stick. It's changing what the formula rewards: multi-year
 
 **Throughput** — The rate at which a process or line actually produces sellable output, as distinct from uptime (which only measures whether the line is running, not how well).
 
-###Appendix D — Field Signs of a Plant in the Loop
+### Appendix D — Field Signs of a Plant in the Loop
 None of these prove which act a plant is in on their own. Together, they're a reasonably reliable read — useful for anyone touring a facility without access to its P&L.
 
 *Lighting that flickers or has visibly mismatched replacement fixtures across different sections of the same floor
