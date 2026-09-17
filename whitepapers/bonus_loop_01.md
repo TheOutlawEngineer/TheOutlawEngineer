@@ -11,9 +11,9 @@ Now it's time to be in the loop:
 ## 1. Introduction: The Drift
 A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap off-gassing from machines that haven't run anything but commissioning tests. The lighting is bright and even. Motors hum with that steady, confident sound you only get when everything is new and perfectly aligned. The place feels like it should, purposful.
 
-Five years later, the shine is gone. A third of the high-bays flicker or sit dead. Temporary data drops snake overhead. Extension cords become permanent infrastructure. Low spots in the floor collect oil skinned water that never fully dries.
+Five years later, the shine is gone. A third of the high-bays flicker or sit dead. Temporary data drops snake overhead. Extension cords become permanent life-support for parts of the plant. Low spots in the floor collect oil skinned water and never fully dry.
 
-Ten years in, the temporary has become structural. Patch cables form rat's nests behind control panels. Skeletal machines and racks sit dead in the line because removing them costs more than ignoring them. Masking-tape labels fade into illegibility. Safety interlocks jumpered during a third-shift emergency remain bypassed for years. Entire sub-panels sit untouched because no one wants to throw the main disconnect and discover what dies.
+Ten years in, the temporary has become part of the structure. Patch cables form rat's nests behind and around control panels. Skeletal machines and empty racks sit dead in the line because removing them costs more than ignoring them. Masking-tape labels fade into a brittle ink stain. Safety interlocks jumpered during a third-shift emergency remain bypassed for years. Entire sub-panels sit untouched because no one wants to throw the main disconnect and discover what dies.
 
 In the utility corridor, a load-bearing concrete wall has a three-foot crater punched straight through it — a crew needed to run industrial Ethernet and didn't want to drill a proper sleeved penetration.
 
