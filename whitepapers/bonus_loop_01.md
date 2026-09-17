@@ -1,5 +1,6 @@
 # Disclaimer — This Work Is a Warning, Not an Attack
 ***These papers are issued as operational warnings, not accusations or attacks. Their purpose is to highlight systemic drift, incentive-driven vulnerabilities, and structural blind spots that increase OT cyber risk. Nothing in these documents is intended to criticize personnel, departments, vendors, or plant leadership.***
+
 ***The analysis focuses on system behavior, organizational incentives, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.***
 
 # The Bonus Loop
