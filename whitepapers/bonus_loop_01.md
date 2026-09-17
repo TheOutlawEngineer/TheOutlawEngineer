@@ -145,9 +145,10 @@ State regulators identified a years-long pattern of deferred vegetation and equi
 **NBC News investigation:** https://www.nbcnews.com/business/corporations/pacific-gas-electric-execs-got-big-bonuses-meeting-safety-goals-n1102681
 
 **Bankruptcy Court bonus rejection:** https://dev.abi.org/node/279424
-Boeing 737 MAX (2018–2024)
 
-**The House Transportation Committee's**
+
+**Boeing 737 MAX (2018–2024)**
+The House Transportation Committee's
 238-page investigation into the two fatal 737 MAX crashes found "tremendous financial pressure" to compete with Airbus led Boeing to cut costs and protect the production schedule at the expense of engineering scrutiny — including the flawed MCAS system implicated in both crashes. A 2024 internal Boeing survey, obtained after the Alaska Airlines door-plug incident, found only 47% of employees agreed that "schedule pressures do not cause my team to lower our standards" — evidence the incentive structure hadn't meaningfully changed even after 346 deaths and years of scrutiny.
 
 **House Committee final report:** https://democrats-transportation.house.gov/news/press-releases/after-18-month-investigation-chairs-defazio-and-larsen-release-final-committee-report-on-boeing-737-max
