@@ -1,4 +1,4 @@
-<h1 align="center"><span style="color:#ffaa00">OUTLAW ENGINEER</span></h1>
+89193-8872<h1 align="center"><span style="color:#ffaa00">OUTLAW ENGINEER</span></h1>
 <p align="center">Industrial Cybersecurity // Field Engineering // Drift Analysis</p>
 
 
@@ -27,7 +27,7 @@ This project focuses on practical, real-world system behavior observed in chemic
  - [Ghost Architecture](whitepapers/draft-01.md)
    <sub>The multi-decade fossil record of legacy systems that form the actual backbone of modern industry.</sub>
 
-- [The Bonus Loop](whitepapers/bonus_loop_01.md)
+- [The Bonus Loop](whitepapers/bonus_loop_01)
 <sub>How executive compensation structures and short-term GM metrics systematically subsidize decay.</sub>
 
 ---
