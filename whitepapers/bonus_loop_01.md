@@ -3,6 +3,8 @@
 
 ***The analysis focuses on system behavior, organizational incentives, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.***
 
+Now it's time to be in the loop:
+
 # The Bonus Loop
 ## How Leadership Incentives Engineer Industrial Drift
 
