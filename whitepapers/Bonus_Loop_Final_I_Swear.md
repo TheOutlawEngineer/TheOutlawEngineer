@@ -60,7 +60,7 @@ A new GM arrives. The plant is "new" again — because the last GM finally spent
 
 *While severe market downturn can create triage, this paper is not about a single emergency  quarter or fiscal year. It describes a predictable and chronic systematic cycle.* 
 
-*When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency. When it is driven by the bonus loop, leadership will mask ot with "green" performance optics until the asset inevitably fails.*
+*When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency. When it is driven by the bonus loop, leadership will mask ot with "green" performance optics until the asset inevitably fails. That said it is not unheard of for leadership to be unable to do the right thing as they are genuinely trapped inside poorly designed corporate structures or hyper-competitive market pressures they cannot rewrite.*
 
 ### 2.1 What Breaks the Loop
 The loop isn't inevitable. It's contingent on one specific condition: nobody sticking around long enough to remember why the last GM did what they 
