@@ -135,7 +135,9 @@ The cultural erosion mirrors the GM cycle:
 
 **"Fix it right." → "Fix it cheap." → "Fix it later." → "Don't fix it at all."**
 
-Culture doesn't collapse all at once — it erodes one shortcut at a time.
+Once incentives reward deferral, each shortcut compounds the next.
+
+Culture doesn't collapse all at once, the cultural erosion isnt a cliff — its a slope made from one shortcut at a time.
 
 Safety interlocks become "temporary bypasses" that stretch across years. Rigged machine guards remain in place purely for show. The building becomes a physical record of leadership incentives: color shifts on walls, widespread lighting decay, infrastructure scars, and tangled patch-cable nests.
 
