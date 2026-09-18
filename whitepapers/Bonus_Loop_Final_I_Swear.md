@@ -20,11 +20,13 @@ In the utility corridor, a load-bearing concrete wall has a three-foot crater pu
 And the drift isn't mysterious. It's engineered — not by the people turning wrenches, but by the bonus loop.
 
 ### 1.1 Industrial Decay Is an Incentive Problem
-Industrial decay is not a maintenance problem, a training problem, or a cybersecurity problem. It is an incentive problem.
+When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency.However, when it is driven by the bonus loop, leadership will mask it with "green" performance optics until the asset inevitably falls into a decay cycle. 
 
-When leadership is rewarded for short-term optics instead of long-term reliability, the plant drifts — physically, culturally, and digitally — until the system becomes unmanageable.
+Industrial decay expresses itself as maintenance failures, training gaps, and cybersecurity rot. What drives it is misaligned incentives.
 
-The mechanism that makes this drift inevitable is the Rotating GM Loop.
+When leadership is rewarded for short-term optics instead of long-term reliability, the plant drifts — physically, culturally, and digitally — until the system becomes unmanageable. 
+
+That said it is not unheard of for leadership to be unable to do the right thing as they are genuinely trapped inside poorly designed corporate structures or hyper-competitive market pressures they cannot rewrite.
 
 ## 2. The Mechanics of Decay: The Rotating GM Loop
 The bonus structure reduces plant management to a brutal binary equation:
@@ -58,13 +60,11 @@ A new GM arrives. The plant is "new" again — because the last GM finally spent
 
 **The drift is baked into the leadership rotation itself.**
 
-*While severe market downturn can create triage, this paper is not about a single emergency  quarter or fiscal year. It describes a predictable and chronic systematic cycle.* 
-
-*When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency. When it is driven by the bonus loop, leadership will mask ot with "green" performance optics until the asset inevitably fails. That said it is not unheard of for leadership to be unable to do the right thing as they are genuinely trapped inside poorly designed corporate structures or hyper-competitive market pressures they cannot rewrite.*
-
 ### 2.1 What Breaks the Loop
 The loop isn't inevitable. It's contingent on one specific condition: nobody sticking around long enough to remember why the last GM did what they 
 did.
+
+This case illustrates a broader and documented pattern: continuity of institutional memory interrupts the GM loop. The anecdote isn’t the proof — it’s mearly example of a mechanism recognized in organizational behavior research.
 
 I watched a private equity acquisition break that pattern once, by accident more than design. Private equity isn't inherently the villain here — the incentive structures it creates just tend to reward exactly the wrong behavior in practice. In this case, the new ownership installed a new CEO, but the board kept the existing CFO in place rather than clearing him out with everyone else. The new CEO, from what I could tell, wasn't particularly engaged in the day-to-day — by all appearances, checked out. But the CFO was the one who actually remembered what had been deferred, and why, and at what cost, and he was still in the room for the next round of decisions. There was no incoming leadership team who could plausibly claim the wreckage wasn't theirs to own, because the person who'd tracked the deferred maintenance bill the whole way was still sitting at the table.
 
@@ -126,7 +126,7 @@ I've worked both sides of that relationship. Some vendors earned the trust they 
 
 That's the GM Loop's mirror image. A GM defers cost because their bonus rewards deferral. A predatory contractor manufactures cost because their revenue rewards continuation. Different direction, same underlying failure: somebody's compensation is tied to an outcome that has nothing to do with the plant actually working, and the contract — like the bonus formula — quietly optimizes for that instead.
 
-It's also a reminder that the incentive problem this paper describes isn't unique to leadership, or to private equity, or to any one seat in the org chart. Wherever a contract, a bonus, or a billing structure rewards something other than the plant's actual reliability, the plant will eventually get exactly what it's paying for — which is never what it thinks it's paying for.
+It's also a reminder that the incentive problem this paper describes isn't unique to leadership, or to private equity, or to any one seat in the org chart. Wherever a contract, a bonus, or a billing structure rewards something other than the plant's actual reliability, the plant will eventually get exactly what it's paying for.
 
 ## 3. The Cultural Shift
 The cultural erosion mirrors the GM cycle:
