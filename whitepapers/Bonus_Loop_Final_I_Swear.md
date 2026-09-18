@@ -5,7 +5,7 @@ The analysis focuses on system behavior, organizational incentives, and infrastr
 # The Bonus Loop
 ## How Financial Incentives Engineer Industrial Drift
 ## 1. Introduction: The Drift
-A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap off-gassing from machines that haven't run anything but commissioning tests. The lighting is bright and even. Motors hum with that steady, confident resonance you only get when everything is new and aligned. The place feels engineered.
+A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap off-gassing from machines that haven't run anything but commissioning tests. The lighting is bright and even. Motors hum with a steady, confidence you only get when everything is new. The place feels engineered. It feels like potential. 
 
 Five years later, the shine is gone. A third of the high-bays flicker or sit dead. Temporary data drops snake overhead. Extension cords become permanent infrastructure. Low spots in the floor collect oil skinned water that never fully dries.
 
