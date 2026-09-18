@@ -20,7 +20,9 @@ In the utility corridor, a load-bearing concrete wall has a three-foot crater pu
 And the drift isn't mysterious. It's engineered — not by the people turning wrenches, but by the bonus loop.
 
 ### 1.1 Industrial Decay Is an Incentive Problem
-When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency.However, when it is driven by the bonus loop, leadership will mask it with "green" performance optics until the asset inevitably falls into a decay cycle. 
+First, a very important  distinction. This does not describe  a plant trying to survive in lean times. When survival forces defer maintenance and upgrading plant technology, leadership communicates it honestly as an emergency.Trust is contract between  teadership and the floor. 
+
+However, when it is driven by the bonus loop, leadership will mask it with "green" performance optics until the plant inevitably falls into a decay cycle. Its obvious when the lack of OEM parts has less to do with supply chain issues and more to do with leadership incentives. 
 
 Industrial decay expresses itself as maintenance failures, training gaps, and cybersecurity rot. What drives it is misaligned incentives.
 
