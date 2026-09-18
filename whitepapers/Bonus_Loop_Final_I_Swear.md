@@ -9,7 +9,7 @@ A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap 
 
 Five years later, the shine is gone. A third of the high-bays flicker or sit dead. Temporary data drops snake overhead. Extension cords become permanent infrastructure. Low spots in the floor collect oil skinned water that never fully dries.
 
-Ten years in, the temporary has become structural. Patch cables form rat's nests behind control panels. Ghost machines and racks sit dead in the line because removing them costs more than ignoring them. Masking-tape labels fade into illegibility. Safety interlocks jumpered during a third-shift emergency remain bypassed for years. Entire sub-panels sit untouched because no one wants to throw the main disconnect and discover what dies.
+Ten years in, the temporary has become structural. Patch cables and control wires form rat's nests behind control panels. Ghost machines and skeletal racks sit dead in the line because removing them costs more than simply ignoring them. Masking-tape labels fade into illegibility. Safety interlocks jumpered during a third-shift emergency remain bypassed for years. Entire sub-panels sit untouched because no one wants to throw the main disconnect and discover what dies.
 
 In the utility corridor, a load-bearing concrete wall has a three-foot crater punched straight through it — a crew needed to run industrial Ethernet and didn't want to drill a proper sleeved penetration.
 
@@ -96,9 +96,9 @@ That person becomes infrastructure. Not a role. A load-bearing piece of the oper
 
 This has a name in the risk-management literature: key person risk, sometimes called key-man risk. It's considered one of the harder categories of risk to manage precisely because it doesn't show up on a balance sheet until the person is already gone — the industry writes entire playbooks about mitigating this risk at the executive level — succession plans, key-person insurance, cross-training, deferred compensation designed specifically to keep someone from walking. None of that machinery exists for the field-level version of the same risk. Nobody buys key-person insurance on the guy techs actually trust.
 
-Here's what the loop actually pays for that kind of reliability: when the moment finally comes to ask for something back — a region of your own, a title that matches the scope of what you've already been doing — the answer isn't no. It's worse than no. It's "I guess we have to think about your career trajectory," said by someone who is only thinking about it because you forced the conversation. Years of international-scale work, and the company had never once gotten around to considering where it was supposed to lead.
+Here's what the loop actually pays for that kind of reliability: when the moment finally comes to ask for something back — the answer isn't no. It's worse than no. It's "I guess we have to think about your career trajectory," Years of work, and the company had never once gotten around to considering where it was supposed to lead.
 
-The job cost is real — the kind of cost that doesn't show up on a org chart and never gets asked about in an exit interview. At the end of the day, trust is broken and the likley-hood of the story being repeated to employment candidates researching a company is all but assured. 
+The cost is real. And that kind of cost doesn't get asked about in an exit interview. At the end of the day, the employee leaves, the process falters and the likley-hood of the story being repeated to employment candidates researching a company is all but assured. 
 
 The GM loop resets because a new GM arrives to a plant that looks new again. The human version doesn't reset the same way. There's no incoming replacement who gets a clean slate — the position just keeps failing to hold anyone the way it held the last person. That's not a coincidence. It's the same math, but wearing a name tag.
 
