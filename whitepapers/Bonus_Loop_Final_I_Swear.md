@@ -3,7 +3,7 @@
 The analysis focuses on system behavior, organizational incentives, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.***
 
 # The Bonus Loop
-## How Leadership Incentives Engineer Industrial Drift
+## How Financial Incentives Engineer Industrial Drift
 ## 1. Introduction: The Drift
 A brand-new industrial facility has a smell — ozone, fresh paint, shrink-wrap off-gassing from machines that haven't run anything but commissioning tests. The lighting is bright and even. Motors hum with that steady, confident resonance you only get when everything is new and aligned. The place feels engineered.
 
@@ -45,18 +45,18 @@ GM Two inherits a facility beginning to show wear. Real maintenance now requires
 
 GM Two learns the unwritten rule: push repairs into the next quarter, keep the line running, protect the bonus, rotate out.
 
-This is where drift begins.
+**This is where drift begins.**
 
 ### Act III: The Wreckage (GM Three)
 GM Three inherits a plant held together by zip ties, scavenged parts, and improvisation. Deferred work orders have become structural failures. They must spend money, shut things down, and fix the rot just to keep product moving.
 
 The moment they spend capital, the scoreboard tanks. When the scoreboard tanks, GM Three is rotated out.
 
-The Loop Resets
+**The Loop Resets**
 
 A new GM arrives. The plant is "new" again — because the last GM finally spent the money. The cycle restarts.
 
-The drift is baked into the leadership rotation itself.
+**The drift is baked into the leadership rotation itself.**
 
 ### 2.1 What Breaks the Loop
 The loop isn't inevitable. It's contingent on one specific condition: nobody sticking around long enough to remember why the last GM did what they 
@@ -67,19 +67,19 @@ I watched a private equity acquisition break that pattern once, by accident more
 Institutional memory is the actual thing the loop depends on erasing — and it doesn't require a functioning CEO to survive. It just requires one person who was there when the bill started running up, still being there when it comes due. A rotating GM isn't dangerous because they're a bad leader — they're dangerous because they're structurally incapable of being held accountable for decay they didn't personally cause and won't personally inherit the consequences of. Keep the one person who remembers, and that 
 structural excuse disappears.
 
-This is worth stating plainly, because most of the drift literature — including the rest of this paper — treats private equity as a uniform villain. It isn't. That's not the point. However, the scavenger phase described below is what happens when PE ownership pairs frozen capital with no institutional memory. What happened here is what happens when PE ownership pairs the same cost discipline with continuity instead. Same financial pressure. Very different outcome. The variable isn't who owns the plant. It's who remembers what was deferred, and whether they're still around to answer for it.
+This is worth stating plainly, because most of the drift literature — including the rest of this paper — treats private equity as a uniform villain. It isn't. However, the scavenger phase described below is what happens when PE ownership pairs frozen capital with no institutional memory. What happened here is what happens when PE ownership pairs the same cost discipline with continuity instead. Same financial pressure. Very different outcome. The variable isn't who owns the plant. It's who remembers what was deferred, and whether they're still around to answer for it.
 
 ### 2.2 The Scavenger Phase
 When private equity owners or strict cost-cutting regimes freeze purchase orders entirely, the plant drops out of the GM loop and into something worse: the scavenger phase.
 
 **Broken equipment is not repaired — it is harvested.**
 
-Technicians strip dead machines for motors, bolts, and wire. They fabricate crude cams out of scrap steel because ordering proper OEM components requires a signature that will never come. Crews raid decommissioned boiler buildings for legacy pneumatic controls.
+Technicians strip dead machines for motors, bolts, and wire. They fabricate crude cams out of scrap steel because ordering proper OEM components requires a signature that will never come. Crews raid decommissioned boiler buildings and abandoned parts of the plant floor for legacy controls.
 
 Scavenging is not incompetence. It is rational behavior in a system where proper repair is financially punished.
 And scavenging extends directly into the plant's digital infrastructure.
 
-When an unmanaged switch fails, a hardened industrial replacement is rejected. Techs pull consumer-grade desktop switches out of abandoned offices, snip Ethernet cables from old PCs, and tape mystery Wi-Fi routers inside active enclosures. Or even, in some cases, a trip with a fist-full of their own cash to ebay.
+When an unmanaged switch fails, a hardened industrial replacement is rejected. Techs pull consumer-grade desktop switches out of abandoned offices, snip Ethernet cables from old PCs, and tape mystery Wi-Fi routers inside active enclosures. Or even, in some cases, a trip to ebay with a fist-full of their own cash.
 
 Every scavenged device injects unpatched operating systems, unknown MAC addresses, and open ports straight into the OT environment.
 
@@ -94,7 +94,7 @@ The job never once tested whether that person could turn a bolt. It tested wheth
 
 That person becomes infrastructure. Not a role. A load-bearing piece of the operation, same as a legacy PLC nobody can replace — except a PLC doesn't notice it's been priced out of its own advancement.
 
-This has a name in the risk-management literature: key person risk, sometimes called key-man risk. It's considered one of the harder categories of risk to manage precisely because it doesn't show up on a balance sheet until the person is already gone — a 2018 Morgan Stanley analysis of S&P 500 companies found that firms losing a key executive underperformed the market by an average of 11% over the following year. The industry writes entire playbooks about mitigating this risk at the executive level — succession plans, key-person insurance, cross-training, deferred compensation designed specifically to keep someone from walking. None of that machinery exists for the field-level version of the same risk. Nobody buys key-person insurance on the guy techs actually trust.
+This has a name in the risk-management literature: key person risk, sometimes called key-man risk. It's considered one of the harder categories of risk to manage precisely because it doesn't show up on a balance sheet until the person is already gone — the industry writes entire playbooks about mitigating this risk at the executive level — succession plans, key-person insurance, cross-training, deferred compensation designed specifically to keep someone from walking. None of that machinery exists for the field-level version of the same risk. Nobody buys key-person insurance on the guy techs actually trust.
 
 Here's what the loop actually pays for that kind of reliability: when the moment finally comes to ask for something back — a region of your own, a title that matches the scope of what you've already been doing — the answer isn't no. It's worse than no. It's "I guess we have to think about your career trajectory," said by someone who is only thinking about it because you forced the conversation. Years of international-scale work, and the company had never once gotten around to considering where it was supposed to lead.
 
