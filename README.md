@@ -41,17 +41,3 @@ Notes from inside industrial systems — where the failure modes are incentives,
 ---
 
 <p align="center"><sub>Industrial truth: systems are never clean.</sub></p>
-
----
-
-## <span style="color:#ffaa00">Focus Areas</span>
-
-- Field-engineering diagnostics
-- Industrial decay and drift modeling
-- SCADA/ICS vulnerability analysis
-- OT/SOC integration patterns
-- Real-world system behavior
-
----
-
-<p align="center"><sub>Industrial truth: systems are never clean.</sub></p>
