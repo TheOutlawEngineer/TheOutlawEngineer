@@ -29,6 +29,9 @@ Notes from inside industrial systems — where the failure modes are incentives,
 ### Field Checklist — [Field Signs of Machinery Drift](whitepapers/field-signs-checklist.md)
 <sub>A tour-a-plant checklist for reading drift with no lab equipment. Extracted from Paper 02.</sub>
 
+### In Progress — [Dark Territory: Teaser](whitepapers/dark-territory-teaser.md)
+<sub>Rail crew reductions as attack-surface transformation. The hook; the [full draft](whitepapers/dark-territory-wip.md) is a work in progress.</sub>
+
 <sub>New here? Start with Paper 01.</sub>
 
 ---
