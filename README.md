@@ -26,6 +26,9 @@ Notes from inside industrial systems — where the failure modes are incentives,
 ### Paper 03 — [Ghost Architecture](whitepapers/03-ghost-architecture.md)
 <sub>The multi-decade fossil record of legacy systems that form the actual backbone of modern industry.</sub>
 
+### Field Checklist — [Field Signs of Machinery Drift](whitepapers/field-signs-checklist.md)
+<sub>A tour-a-plant checklist for reading drift with no lab equipment. Extracted from Paper 02.</sub>
+
 <sub>New here? Start with Paper 01.</sub>
 
 ---
@@ -41,3 +44,5 @@ Notes from inside industrial systems — where the failure modes are incentives,
 ---
 
 <p align="center"><sub>Industrial truth: systems are never clean.</sub></p>
+
+<p align="center"><sub>All papers licensed under <a href="LICENSE">CC BY-NC-SA 4.0</a>.</sub></p>
