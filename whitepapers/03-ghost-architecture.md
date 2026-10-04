@@ -36,7 +36,7 @@ Ghost Architecture is distributed, not isolated. Vendors ship legacy requirement
 
 COVID made this visible. The inability to procure modern hardware revealed how deeply legacy requirements were embedded. The industrial ecosystem wasn't modern — it was fossilized.
 
-The Oldsmar water facility incident proved this wasn't theoretical. On February 5, 2021, an intruder got into the SCADA system of the water treatment plant in Oldsmar, Florida through TeamViewer and raised the sodium hydroxide dosing setpoint from 100 parts per million to roughly 11,100 — a hundredfold increase. An operator happened to be watching the screen, saw the cursor moving on its own, and reversed it before it mattered. The machine on the other end ran Windows 7, had no firewall installed, appeared to be sitting directly on the internet, and shared one TeamViewer password across the plant's operators. The FBI's wording was hedged — the intruder "likely" got in through poor password security and the dead OS — but the shape of it isn't in dispute: a fossilized workstation, placed online for convenience, doing exactly what it was left able to do. The attacker didn't breach a complex modern network. They walked through a door left open because operators needed quick access — and because the box couldn't be replaced, the door couldn't be closed.
+The Oldsmar water facility incident proved this wasn't theoretical — a fossilized Windows 7 workstation, placed on the internet for operator convenience, doing exactly what it was left able to do. (Full writeup in Appendix B.) The attacker didn't breach a complex modern network. They walked through a door left open because operators needed quick access — and because the box couldn't be replaced, the door couldn't be closed.
 
 Oldsmar wasn't a unique failure. When legacy systems can't be modernized, convenience stops being a shortcut and becomes the architecture.
 
@@ -58,13 +58,13 @@ These cases mirror the reality we lived during COVID. Many of the machines we sh
 
 Ghost Architecture operates as a layered physical-digital stack:
 
-Layer 1 — Legacy Systems: fossilized OSes, vendor-locked HMIs, outdated drivers, frozen control logic. The stuff from Section 2 that can't be replaced.
+**Layer 1 — Legacy Systems.** Fossilized OSes, vendor-locked HMIs, outdated drivers, frozen control logic. The stuff from Section 2 that can't be replaced. These systems aren't old because nobody noticed — they're old because replacing them means rewriting the process they run. The Windows XP box driving the HMI isn't a computer anymore. It's a load-bearing part of the machine, same as a gearbox. Nobody specs a twenty-year-old OS. They inherit it the way you inherit a foundation: it's under everything, and touching it risks the whole structure.
 
-Layer 2 — Shadow Networks: forgotten VLANs, abandoned switches, flat segments nobody's allowed to unplug. Not the pathways anyone uses — the infrastructure nobody remembers, still powered, still forwarding.
+**Layer 2 — Shadow Networks.** Forgotten VLANs, abandoned switches, flat segments nobody's allowed to unplug. Not the pathways anyone uses — the infrastructure nobody remembers, still powered, still forwarding. Every plant has a switch nobody will touch, because the last time someone did, something three buildings over stopped working and nobody could say why. The diagram says it doesn't exist. The blinking link lights say otherwise. Shadow networks are what the drift machine leaves behind after the crisis is over — the connectivity equivalent of scar tissue.
 
-Layer 3 — Spectral Adjacency: the contact nobody designed and nobody owns. A dual-homed EWS, a contractor laptop, a vendor VPN tunnel left up after commissioning. Layer 2 is what got forgotten; Layer 3 is what everyone can see but nobody manages, because managing it means downtime nobody will approve.
+**Layer 3 — Spectral Adjacency.** The contact nobody designed and nobody owns. A dual-homed EWS, a contractor laptop, a vendor VPN tunnel left up after commissioning. Layer 2 is what got forgotten; Layer 3 is what everyone can see but nobody manages, because managing it means approving downtime nobody will sign off on. It's the most dangerous layer precisely because it's visible — visibility creates the assumption that someone is handling it. Nobody is. The EWS sits at the seam between OT and IT with a foot in each network, and both sides assume the other one secured it.
 
-Layer 4 — Propagated Decay: Section 3's vendor-to-customer fragility export, at industry scale. The same frozen requirements shipping to every plant in the sector.
+**Layer 4 — Propagated Decay.** Section 3's vendor-to-customer fragility export, at industry scale. The same frozen requirements shipping to every plant in the sector. One plant's ghost is a local problem; a vendor shipping the same dead runtime to every customer is an industry problem. The buyer can't demand modernization because the vendor has no modern product. The vendor has no modern product because no buyer will pay for the rewrite. COVID proved it at scale — when the supply chain broke, every plant reached for the same dead hardware, because the whole sector had standardized on the ghost.
 
 Stack all four and you get the emergent risk fabric: the plant as it actually is once fossilized systems, shadow networks, and unmanaged OT/IT contact are piled together — risk that can't be patched out, only contained.
 
@@ -76,9 +76,17 @@ Ghost Architecture piles up security debt over decades, rots the OT/IT boundary,
 
 You can't patch your way out of Ghost Architecture. You can only shrink it — and shrinking it means doing the things the last five sections just explained nobody does.
 
-None of what follows is new. Every item below has been recommended for a decade. The reason it doesn't happen is that doing any of it breaks the process or the budget — which is the entire subject of this paper.
+None of what follows is new. Every item below has been recommended for a decade. The reason it doesn't happen is that doing any of it breaks the process or the budget — which is the entire subject of this paper. Each one fails for a specific reason, and the reasons are the thesis:
 
-Pressure vendors to modernize. Harden the EWS baseline. Segment the OT network. Audit the supply chain. Quarantine the legacy runtimes.
+**Pressure vendors to modernize.** The buyer has no leverage. The vendor's whole product line is built on the frozen runtime, and the one customer demanding a rewrite is bidding against ten who just want the cheap quote. Modernization happens when a vendor's largest customers move together. They never do.
+
+**Harden the EWS baseline.** The EWS is the box everyone touches and nobody owns — IT won't manage it because it's OT, OT won't manage it because it's a PC. Hardening it means taking it away from the engineers during the outage they're working, which is exactly when they need it most.
+
+**Segment the OT network.** Segmentation is downtime with a project plan. Every trust boundary crosses a cable somebody's process depends on, and the first time the new firewall blocks a legitimate control packet at 3:00 a.m., the rule gets an exception that never expires.
+
+**Audit the supply chain.** The audit finds what this paper already documented: the vendor ships frozen requirements because that is the product. The audit doesn't create a modern alternative. It just prices the ghost.
+
+**Quarantine the legacy runtimes.** Quarantine means wrapping the dead OS in enough controls that it can't hurt anything — jump hosts, one-way diodes, monitored access. It works, technically. It also costs real money every year to protect a box whose entire value is that it was already paid for.
 
 The goal isn't to eliminate the ghosts. It's to keep them from wandering.
 
@@ -150,3 +158,7 @@ Before digital triage occurs, the plant must confirm valves are in expected posi
 - **Propagated Decay** — Fragility exported across an industry: buyers who can't or won't pay for modernization keep buying what vendors keep shipping, so the same frozen requirements land at every plant in the sector.
 - **Emergent Risk Fabric** — What the plant actually is once fossilized systems, shadow networks, and unmanaged OT/IT contact are stacked together: risk you can't patch out, only contain.
 - **Convenience Architecture** — Informal, undocumented network pathways created because operators need fast access. The mechanism by which spectral adjacency forms.
+
+---
+
+*This is Paper 03 of 3. [Paper 01 — The Bonus Loop](01-the-bonus-loop.md) · [Paper 02 — The Drift Machine](02-the-drift-machine.md)*

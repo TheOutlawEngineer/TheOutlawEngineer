@@ -1,8 +1,8 @@
-## Disclaimer — This Work Is a Warning, Not an Attack
-
-This series is issued as an operational warning, not accusations or attacks. Their purpose is to highlight systemic drift, incentive-driven vulnerabilities, and structural blind spots that increase OT cyber risk. Nothing in these documents is intended to criticize personnel, departments, vendors, or plant leadership.
-
-The analysis focuses on system behavior, reward structures, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.
+> **A NOTE BEFORE YOU READ**
+>
+> Nothing in this paper names a vendor, a product, or a plant you should rip out. We won't pretend there's a buy-and-deploy fix. Our target is the decay in the middle — the years when a system is too critical to replace and too old to protect — and the economic and organizational forces that keep it there. If you're looking for a vendor to blame or a box to buy, this paper will disappoint you. That part is intentional.
+>
+> For operators, engineers, and students still entering this field, especially through workforce programs like WIOA: you are not being told your industry is broken and your job is hopeless. You're being told the truth about the infrastructure you'll actually inherit, so you can do the work with your eyes open. The ghosts are real. They're also manageable. That's what this paper is about.
 
 ---
 That said, welcome to:
@@ -16,7 +16,7 @@ That said, welcome to:
 
 If you take nothing else away from this work, understand that nothing good ever comes from 3:00 a.m.
 
-Your phone rings. At that hour, every engineer knows the pattern. Maybe all the Arcnet controllers on the plant floor stopped talking. Maybe a VFD tied to the HVAC or sump motor has tripped an interlock. Maybe the reporting HMI is blinking devices on and off like a string of Christmas lights. But it always ends the same: an engineer or tech drives forty minutes through ice and snow to replace a fuse or discover that a network card isn’t fully seated in its motherboard. It’s exhausting, it’s stupid, and it’s the kind of problem onsite personnel could solve if the system were designed with even minimal resilience.
+Your phone rings. At that hour, every engineer knows the pattern. Maybe the reporting HMI is blinking devices on and off like a string of Christmas lights. But it always ends the same: an engineer or tech drives forty minutes through ice and snow to replace a fuse or discover that a network card isn’t fully seated in its motherboard. It’s exhausting, it’s stupid, and it’s the kind of problem onsite personnel could solve if the system were designed with even minimal resilience.
 
 Industrial control systems don’t fail gracefully. They fail sometimes with a bang, always inconveniently, and at the worst possible moment. And because downtime is expensive, and because production managers don’t want to hear about “network architecture” or “proper segmentation,” the people who keep these systems alive learn to improvise. To be completely  fair, most techs aren’t thinking  that at 3:00am with thousands of dollars of production time burning before  their eyes. Improvisation becomes a habit. Habit then becomes infrastructure.
 
@@ -40,7 +40,7 @@ And invisible infrastructure is the dangerous kind.
 
 In industrial environments, security is never the first priority. It isn’t even the second. Production comes first, uptime comes second, and everything else fights for whatever time and resources remain. Uptime is not a goal — it’s the lifeblood of production. If the line isn’t running, nothing else matters. Security only enters the conversation when an auditor shows up or when a vendor needs to justify a new product line. Until then, the system runs on whatever keeps the plant from going dark at 3:00 a.m.
 
-The people who keep these systems alive aren’t sitting in climate‑controlled SOCs with dashboards and alerts. They’re in the extreme heat or cold crawling behind ancient conveyors, climbing corrosion-pitted catwalks, and trying to reseat a card in a cabinet that hasn’t been opened since at least the first Bush administration. They don’t have time to file tickets, escalate or wait for approvals. They need the line running now. So they do what works: patch, bypass, improvise, repeat.
+The people who keep these systems alive aren’t sitting in climate‑controlled SOCs with dashboards and alerts. They don’t have time to file tickets, escalate, or wait for approvals. They need the line running now. So they do what works: patch, bypass, improvise, repeat.
 
 Security frameworks assume rational actors with time, documentation, and resources.
 
@@ -48,7 +48,7 @@ Industrial reality cannot assume any of those things. A PLC that drops offline t
 
 And once a shortcut works, it stays, it becomes normal. Once it’s normal, it becomes invisible. Just another brick in the wall.
 
-Invisible infrastructure is the enemy of security. It’s the access point nobody remembers installing, the vendor VPN nobody disabled. These shortcuts accumulate quietly, layer by layer, until the control network looks nothing like the P&ID diagram taped inside the maintenance office.
+It’s the access point nobody remembers installing, the vendor VPN nobody disabled. These shortcuts accumulate quietly, layer by layer, until the control network looks nothing like the P&ID diagram taped inside the maintenance office.
 
 Security teams talk about attack surfaces. Industrial engineers talk about keeping the damn thing running.When those priorities collide, and they will,  production wins every time.
 
@@ -64,15 +64,7 @@ Drift begins with a single exception. A PLC that keeps dropping offline. A vendo
 
 None of these actions are malicious. They’re practical. They’re born of survival. They’re what keeps production moving. Uptime. Industrial systems have long memories and short documentation cycles. As one fire is extinguished another starts to smolder.
 
-And the exceptions leave infrastructure behind:
-
-A vendor VPN left active becomes a permanent tunnel into the control network.
-
-A Wi‑Fi access point installed for troubleshooting becomes a remote entry vector.
-
-A firewall rule created during commissioning becomes a forgotten exposure point.
-
-A PLC set up just for testing becomes an internet‑facing endpoint, indexed within days — automated scanners and botnets find new hosts in minutes-to-hours; Shodan’s catalogued index lags by days-to-weeks.
+And the exceptions leave infrastructure behind — a firewall rule created during commissioning becomes a forgotten exposure point, and a PLC set up just for testing becomes an internet‑facing endpoint. Automated scanners and botnets find new hosts in minutes-to-hours; Shodan’s catalogued index lags by days-to-weeks.
 
 Because nobody updates the network diagram, nobody knows these things exist. The diagram taped inside the IT office shows a clean, segmented, orderly system. Somebody issues a corrective action about updating the diagrams. The diagrams stay wrong. The actual network is a patchwork of improvisations layered over years of production pressure.
 
@@ -96,7 +88,7 @@ Attackers don’t need to break the system. They just need to nudge it. Move a s
 
 Internet‑facing PLCs don’t appear because someone made a reckless architectural decision. They appear because a series of small, practical, production‑driven choices stacked up over months or years or a decade until the control network quietly opened to the outside world. No single action feels dangerous. Each one solves a problem. Averts a crisis. Buys precious uptime. And each one nudges the system a little further away from its intended design.
 
-It starts with a crisis. A PLC drops offline during peak production. A vendor needs access immediately. A commissioning deadline is slipping. A plant manager is standing behind you sweating and asking how long the line will be down. In that moment, nobody cares about segmentation or firewall rules. Nobody thinks about long‑term risk. They care about production. They care about uptime. They care about getting the machinery running again, whatever it takes.
+It starts with a crisis. A PLC drops offline during peak production. A vendor needs access immediately. A commissioning deadline is slipping. A plant manager is standing behind you sweating and asking how long the line will be down. In that moment, nobody cares about segmentation or firewall rules. They care about production. They care about uptime. They care about getting the machinery running again, whatever it takes.
 
 So a firewall rule gets added.
 A port gets forwarded.
@@ -106,7 +98,7 @@ A cloud dashboard gets bolted onto a legacy controller because it was the fastes
 
 An off‑the‑shelf IIoT cellular gateway gets dropped onto the machine backplane to stream telemetry to an enterprise AWS or Azure tenant, bypassing the plant’s perimeter firewalls entirely via an outbound‑initiated tunnel.
 
-None of these actions are catastrophic on their own. They’re shortcuts — the same kind that keep plants alive at 3:00 a.m. But shortcuts accumulate. And once the crisis ends, nobody circles back to undo them. The vendor leaves. The engineer goes home. The relieved plant manager forgets the conversation. The documentation never gets updated. The event never happened.
+None of these actions are catastrophic on their own. But shortcuts accumulate. And once the crisis ends, nobody circles back to undo them. The vendor leaves. The engineer goes home. The relieved plant manager forgets the conversation. The documentation never gets updated. The event never happened.
 
 A PLC that was supposed to be isolated ends up with a public‑facing IP because a port forward was never removed.
 A cloud connector keeps running because the subscription auto‑renewed.
@@ -165,7 +157,7 @@ Even modern protocols designed with cryptography — like OPC UA — fall victim
 
 ### 5.4 IIoT Edge Brokers and Unencrypted Telemetry
 
-Modern drift isn’t just a direct PLC port‑forward anymore. Maintenance teams routinely drop off‑the‑shelf cellular IoT gateways onto the machine backplane to feed cloud historians or predictive maintenance dashboards.
+Maintenance teams routinely drop off‑the‑shelf cellular IoT gateways onto the machine backplane to feed cloud historians or predictive maintenance dashboards.
 
 These devices expose unencrypted MQTT brokers on port 1883, insecure WebSockets, and default administrative web interfaces.
 
@@ -211,13 +203,7 @@ Long story short, the new firmware was bad and untested. I burned additional PIC
 
 That's the firmware update mechanism in the real world: untested vendor builds, pushed over connections that can't be trusted, under pressure from people who already left the call. An attacker doesn't need to be better than this process. They just need to be in the room.
 
-### 5.7 Attack Paths
-
-Once an attacker has access to a PLC or an edge broker, the path into the broader control network opens: from the IIoT gateway into the local subnet, from the PLC to the SCADA server, the historian, the HMI, the engineering workstation — and, where drift has done its worst, the safety controller.
-
-Industrial networks are often flat or only partially segmented. A single exposed PLC or misconfigured cloud edge box can become the entry point for lateral movement.
-
-### 5.8 Attacker Motivation
+### 5.7 Attacker Motivation
 
 Attackers don’t need a reason to target your plant. They target exposed devices simply because they’re exposed. Motivations vary — opportunistic scanning, ransomware groups, industrial espionage, hacktivists, bored teenagers, automated botnets. The threat model doesn’t depend on intent. It depends on exposure — and exposure is created by drift.
 
@@ -241,7 +227,7 @@ Spoofed sensor values can mask overheating, hide vibration anomalies, fake flow 
 
 A PLC trusts its sensors. A SCADA system trusts the PLC. The plant trusts SCADA.
 
-That's the chain. A single spoofed value cascades upward until the entire system believes its legitimate.
+That's the chain. A single spoofed value cascades upward until the entire system believes it’s legitimate.
 
 ### 6.3 Mode Abuse
 
@@ -289,9 +275,9 @@ This is the nightmare scenario — because it creates conditions where normal fa
 
 ### 6.7 Lateral Movement and Persistence
 
-Once inside, the flat network does the rest — see §5.7.
+Once an attacker has access to a PLC or an edge broker, the path into the broader control network opens: from the IIoT gateway into the local subnet, from the PLC to the SCADA server, the historian, the HMI, the engineering workstation — and, where drift has done its worst, the safety controller.
 
-Every hop gives them more of the plant.
+Industrial networks are often flat or only partially segmented. A single exposed PLC or misconfigured cloud edge box becomes the entry point, and the flat network does the rest. Every hop gives them more of the plant.
 
 Attackers maintain persistence by modifying logic, adding hidden rungs, creating rogue tasks, installing vendor-like remote agents, abusing cloud connectors, leaving backdoor credentials, and altering firewall rules.
 
@@ -309,51 +295,37 @@ Quiet manipulation is the real control‑plane threat.
 
 When a control system is compromised, the plant doesn’t experience complete pandemonium. It experiences faults that look like every other fault the plant has ever had. Industrial exploitation hides inside normal operations because the normal is already chaotic.
 
-### 7.1 Nuisance Faults
+### 7.1 Nuisance Faults and Intermittent Behavior
 
-The first sign of compromise is usually a nuisance fault. A motor trips for no reason. A sensor reads out of range. A conveyor stops and starts unpredictably. Operators blame humidity, dust, vibration, or the night shift. Mostly the night shift. Maintenance resets the breaker, reseats the card, replaces some cat6 and moves on.
+The first sign of compromise is usually a nuisance fault. A motor trips for no reason. A sensor reads out of range. A conveyor stops and starts unpredictably. A PLC drops offline for a few seconds. A valve cycles twice instead of once. None of it is catastrophic. All of it is explainable — operators blame humidity, dust, vibration, or the night shift. Mostly the night shift. Maintenance resets the breaker, reseats the card, replaces some cat6 and moves on.
 
-Attackers rely on this. They know nuisance faults disappear into the noise of daily operations.
+But the explanations are wrong. Attackers rely on this: nuisance faults disappear into the noise of daily operations, and intermittent behavior is the perfect cover for probing the system.
 
-### 7.2 Intermittent Behavior
+### 7.2 Process Drift
 
-Intermittent failures are the perfect cover. A PLC drops offline for a few seconds. A VFD reports a communication timeout. A valve cycles twice instead of once. None of it is catastrophic. Simple every day stuff. All of it is explainable. But the explanations are wrong.
+Process drift is subtle. Temperatures run slightly higher. Flow rates fluctuate. Pressure trends shift. Operators compensate manually — a tweak on a ball valve, a bump of pressure on the pneumatics. Maintenance tweaks a potentiometer with a screwdriver. Nobody realizes the system is being nudged.
 
-Intermittent behavior is a sign that someone is probing the system.
+Attackers don’t need to break the process. They need to move it.
 
-### 7.3 Process Drift
-
-Process drift is subtle. Temperatures run slightly higher. Flow rates fluctuate. Pressure trends shift. Operators compensate manually. Maybe a manual tweak on a ball valve. A slight increase in pressure on the pneumatics. Maintenance tweaks a potentiometer with a screwdriver. Nobody realizes the system is being nudged.
-
-Attackers don’t need to break the process. They need to move it. Small adjustments.
-
-### 7.4 Alarm Fatigue
+### 7.3 Alarm Fatigue
 
 A compromised system generates alarms that don’t matter and suppresses alarms that do. Operators become numb. They silence alarms faster. That fault has always been there. They assume the system is overreacting. They stop trusting the HMI. You can only look at the same yellow highlighted red text for so long before  it becomes  invisible.
 
 Alarm fatigue is a weapon.
 
-### 7.5 Maintenance Misdiagnosis
+### 7.4 Maintenance Misdiagnosis and Production Losses
 
 Poisoned historian data leads maintenance teams to chase the wrong problems. Bearings get replaced that weren’t failing. Motors get pulled that were fine. Vibration analysis becomes meaningless. Predictive maintenance models collapse.
 
-The plant begins optimizing around lies.
+And production losses look like inefficiency, not sabotage: minor slowdowns, slightly longer cycle times, more rejects, more downtime. Each one is small, almost expected with older equipment. Together they erode throughput. Attackers just need to make it unreliable.
 
-### 7.6 Production Losses
+### 7.5 Safety Margin Erosion
 
-Production losses look like inefficiency, not sabotage: minor slowdowns, slightly longer cycle times, more rejects, more downtime, more resets, more operator interventions.
-
-Each one is small, almost expected with older equipment. Together they erode throughput.
-
-Attackers just need to make it unreliable.
-
-### 7.7 Safety Margin Erosion
-
-The most dangerous impact is erosion of safety margins. A system running close to its limits becomes fragile. A fragile system becomes unpredictable. An unpredictable system is hazardous.
+The most dangerous impact is erosion of safety margins. A system running close to its limits becomes fragile, then unpredictable, then hazardous.
 
 Safety incidents in compromised plants are rarely traced back to cyber activity. They get blamed on equipment age, operator error, or bad luck. Everyone  watches an insurance policy mandated safety video, someone writes a report and the plant moves on.
 
-### 7.8 Loss of Trust
+### 7.6 Loss of Trust
 
 The final impact is psychological. Operators stop trusting the HMI. Engineers stop trusting the historian. Maintenance stops trusting the sensors. Management stops trusting the numbers.
 
@@ -381,7 +353,7 @@ Auditors trust people. People trust memory. Memory is fallible, especially  in i
 
 ### 8.3 Sampling Misses the Drift
 
-Audits sample configurations. They don’t inspect every PLC, every firewall, every switch, every edge device, every cloud connector. Drift hides in the gaps between samples. A single exposed PLC or misconfigured IIoT gateway can sit outside the audit’s field of view for years.
+Audits sample configurations. They don’t inspect every PLC, firewall, switch, edge device, and cloud connector. Drift hides in the gaps between samples — a single exposed PLC can sit outside the audit’s field of view for years.
 
 Meanwhile attackers scan everything.
 
@@ -399,7 +371,7 @@ The audit model was built for on‑prem systems. The system has drifted from tha
 
 ### 8.6 Policy Does Not Survive Production
 
-Security policies require change control, documentation, approvals, and proper segmentation. Time and energy from the people who have very little for that. Production requires uptime. When the two conflict, production always wins. Every single time. Policies become aspirational. Maybe successfully implemented for a few weeks then abandoned.  But the drift persists.
+Security policies require change control, documentation, approvals, and proper segmentation — time and energy from people who have very little of either. Production requires uptime. When the two conflict, production always wins. Every single time. Policies become aspirational. Maybe successfully implemented for a few weeks then abandoned.  But the drift persists.
 
 ### 8.7 The Plant Prepares for the Audit
 
@@ -456,7 +428,7 @@ Convenience cannot be part of the security model.
 
 Segmentation must reflect the real network, not the diagram taped inside the maintenance office. Trust boundaries must be built around what exists, not what was intended. That means isolating the PLCs, the HMIs, the SCADA servers, the historians, the engineering workstations, the safety controllers, and the IIoT gateways and cloud connectors.
 
-Segmentation is not a drawing. It is a physical and logical boundary and must match the real system.
+Segmentation is not a drawing. It must match the real system.
 
 ### 9.3 Change Control That Survives Production
 
@@ -593,3 +565,7 @@ Network diagrams the maintenance lead corrects from memory while you’re lookin
 “Spare” parts stashed inside dirty electrical boxes and cabinets — the physical version of undocumented infrastructure
 
 Staff who answer “oh, that box phones home” about equipment they’ve never opened a ticket on
+
+---
+
+*This is Paper 02 of 3. [Paper 01 — The Bonus Loop](01-the-bonus-loop.md) · Next: [Paper 03 — Ghost Architecture](03-ghost-architecture.md)*

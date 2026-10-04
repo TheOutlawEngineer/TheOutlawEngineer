@@ -1,8 +1,8 @@
-> **Disclaimer — This Work Is a Warning, Not an Attack**
+> **A NOTE BEFORE YOU READ**
 >
-> This series is issued as an operational warning, not accusations or attacks. Their purpose is to highlight systemic drift, incentive-driven vulnerabilities, and structural blind spots that increase OT cyber risk. Nothing in these documents is intended to criticize personnel, departments, vendors, or plant leadership.
+> Nothing in this paper names a vendor, a product, or a plant you should rip out. We won't pretend there's a buy-and-deploy fix. Our target is the decay in the middle — the years when a system is too critical to replace and too old to protect — and the economic and organizational forces that keep it there. If you're looking for a vendor to blame or a box to buy, this paper will disappoint you. That part is intentional.
 >
-> The analysis focuses on system behavior, reward structures, and infrastructure realities, not individual fault. These supplements should be understood as risk advisories, not hostile critiques.
+> For operators, engineers, and students still entering this field, especially through workforce programs like WIOA: you are not being told your industry is broken and your job is hopeless. You're being told the truth about the infrastructure you'll actually inherit, so you can do the work with your eyes open. The ghosts are real. They're also manageable. That's what this paper is about.
 
 # The Bonus Loop
 *How Leadership Incentives Engineer Industrial Drift*
@@ -176,6 +176,8 @@ In a plant like this, cyber instability is never the root cause — it is the fi
 
 You do not fix decay by adding rules. You fix it by rewriting incentives.
 
+None of the below is for the tech on the floor — they already know. This is for whoever signs the budget: the GM who wants to break the loop instead of riding it, the board, the owner. If that's not you, hand them this list.
+
 - Fund maintenance as throughput protection. Healthy equipment produces more sellable units per hour.
 
 - Fund reliability. End the scavenger economy — mechanical and digital — by funding OEM parts, stocking critical spares, and replacing scavenged switches with hardened industrial hardware. Build a real advancement path for the people who are quietly holding the operation together. A region, a title, a raise — whatever the actual ask is — costs less than what it takes to replace that person once they finally leave, and far less than what it costs to keep them until they break.
@@ -190,15 +192,15 @@ You do not fix decay by adding rules. You fix it by rewriting incentives.
 
 ## 7. Conclusion
 
+Look closely at every failure mode in this series and it's the same resource running out each time, just wearing a different name tag. A field tech trusts the diagram matches the real network. An operator trusts the HMI is showing the truth. A GM trusts the wreckage won't surface until after they've rotated out. An employee trusts the receipt gets approved. Drift isn't really entropy, and it isn't really neglect. It's trust extended past the point where anyone was still checking whether it was warranted — and a system that keeps spending trust without ever replenishing it is running the exact same overdraft as a plant that keeps deferring maintenance it never intends to pay for.
+
 A bonus-driven plant is not just inefficient — it is dangerous. It builds its own cyber-physical kill chain one deferred repair at a time. The only question is when it snaps.
 
 When executive incentives reward long-term reliability over quarterly margin games, the rot stops compounding.
 
 You cannot patch a firewall when the physical wall has a hole blown through it.
 
-Look closely at every failure mode in this series and it's the same resource running out each time, just wearing a different name tag. A field tech trusts the diagram matches the real network. An operator trusts the HMI is showing the truth. A GM trusts the wreckage won't surface until after they've rotated out. An employee trusts the receipt gets approved. Drift isn't really entropy, and it isn't really neglect. It's trust extended past the point where anyone was still checking whether it was warranted — and a system that keeps spending trust without ever replenishing it is running the exact same overdraft as a plant that keeps deferring maintenance it never intends to pay for.
-
-I've spent close to two decades being the person who showed up after the loop had already run its course — the field engineer who diagnosed the drift, patched what could be patched, and drove home before anyone asked why it got that bad in the first place. I'm done being the last stop in that chain. I'm looking for the seat where seeing the pattern this clearly, this early, is the job — not the mop-up after it. If that's a seat you're hiring for, or you just want to argue with any of this, I'd rather hear from you than write a fourth paper about it.
+I've spent close to two decades being the person who showed up after the loop had already run its course — the field engineer who diagnosed the drift, patched what could be patched, and drove home before anyone asked why it got that bad in the first place. I'm done being the last stop in that chain. Seeing the pattern early, from the front of it, is the work — not the mop-up after. If you want to argue with any of this, I'd rather hear from you than write a fourth paper about it.
 
 ## Appendices
 
@@ -286,3 +288,7 @@ None of these prove which act a plant is in on their own. Together, they're a re
 
 - Network diagrams or as-built drawings that staff themselves describe as "not accurate anymore" without being asked
 
+
+---
+
+*This is Paper 01 of 3. Next: [Paper 02 — The Drift Machine](02-the-drift-machine.md)*
