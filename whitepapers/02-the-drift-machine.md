@@ -239,7 +239,7 @@ There used to be a physical limit on this. The keyswitch on the front of the con
 
 That property is being hollowed out, and it's documented. On Rockwell Logix platforms the keyswitch has three positions — RUN, REM, PROG — and with the key sitting in REM, anyone on an engineering workstation running Studio 5000 can flip the controller between Remote Run, Remote Program, and Remote Test. That's vendor behavior, not an exploit. Siemens documents it from the other direction: S7-1500 operating modes can be switched from TIA Portal, the on-CPU display, or the free Automation Tool. The physical switch still exists on both platforms. It doesn't matter, because it lives in REM — the convenient position, the one that lets engineers work without driving to the cabinet. The key might as well not be there. Its protection assumed someone would turn it back. Nobody does.
 
-Rockwell even logs the difference: their change detection records "Remote mode change" and "Keyswitch mode change" as separate audit events. The vendor knows which one is the risk. The industry leaves the key in REM anyway.
+Rockwell's change detection distinguishes a mode change made at the keyswitch from one made remotely. The vendor knows which one is the risk. The industry leaves the key in REM anyway.
 
 A software-defined mode is a mode that can be nudged. Not by someone holding a key. By a packet.
 
