@@ -35,7 +35,7 @@ Notes from inside industrial systems — where the failure modes are incentives,
 
 ## One-Offs
 
-<sub>Standalone analyses outside the series.</sub>
+<sub>Standalone analyses outside any series."Old Man Yells at Cloud"</sub>
 
 ### [Dark Territory: Teaser](whitepapers/dark-territory-teaser.md)
 <sub>Rail crew reductions as attack-surface transformation. The hook; the [full draft](whitepapers/dark-territory-wip.md) is a work in progress.</sub>
